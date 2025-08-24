@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@netlify/functions": "^4.2.2",
+    "@rollup/rollup-darwin-arm64": "^4.48.0",
     "crypto": "^1.0.1",
     "lucide-react": "^0.344.0",
     "node-fetch": "^3.3.2",
@@ -22,7 +23,6 @@
     "npm": "10.8.2"
   },
   "devDependencies": {
-    "rollup": "4.47.0",
     "@eslint/js": "^9.9.1",
     "@types/node": "^24.3.0",
     "@types/react": "^18.3.5",
@@ -34,6 +34,7 @@
     "eslint-plugin-react-refresh": "^0.4.11",
     "globals": "^15.9.0",
     "postcss": "^8.4.35",
+    "rollup": "4.47.0",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.3.0",

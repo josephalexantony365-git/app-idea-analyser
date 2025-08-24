@@ -11,9 +11,6 @@ importers:
       '@netlify/functions':
         specifier: ^4.2.2
         version: 4.2.2(rollup@4.47.0)
-      '@rollup/rollup-darwin-arm64':
-        specifier: ^4.48.0
-        version: 4.48.0
       crypto:
         specifier: ^1.0.1
         version: 1.0.1
@@ -644,11 +641,6 @@ packages:
 
   '@rollup/rollup-darwin-arm64@4.47.0':
     resolution: {integrity: sha512-kZzTIzmzAUOKteh688kN88HNaL7wxwTz9XB5dDK94AQdf9nD+lxm/H5uPKQaawUFS+klBEowqPMUPjBRKGbo/g==}
-    cpu: [arm64]
-    os: [darwin]
-
-  '@rollup/rollup-darwin-arm64@4.48.0':
-    resolution: {integrity: sha512-QhR2KA18fPlJWFefySJPDYZELaVqIUVnYgAOdtJ+B/uH96CFg2l1TQpX19XpUMWUqMyIiyY45wje8K6F4w4/CA==}
     cpu: [arm64]
     os: [darwin]
 
@@ -2956,8 +2948,6 @@ snapshots:
 
   '@rollup/rollup-darwin-arm64@4.47.0':
     optional: true
-
-  '@rollup/rollup-darwin-arm64@4.48.0': {}
 
   '@rollup/rollup-darwin-x64@4.47.0':
     optional: true

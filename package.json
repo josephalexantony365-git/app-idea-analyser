@@ -17,6 +17,9 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "4.6.1"
+  },
   "engines": {
     "node": "20.19.4",
     "npm": "10.8.2"
